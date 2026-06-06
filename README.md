@@ -196,7 +196,11 @@ echo "=================================================="
 
 How to Usenano install_openwebui3.sh
 Paste the script above → Ctrl+O → Enter → Ctrl+X
+
 chmod +x install_openwebui3.sh && ./install_openwebui3.sh
+
+
+
 
 Final ThoughtsThis version is shorter, safer (asks before delete), smarter (WSL detection, auto model), and more maintainable. The core logic is consolidated while keeping error handling.Would you like a version that also creates a desktop shortcut / systemd service, or one that supports multiple isolated instances easily? Let me know how it runs!
 
